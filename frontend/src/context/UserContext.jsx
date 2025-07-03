@@ -5,7 +5,7 @@ import axios from "axios";
 export const userDataContext = createContext();
 
 function UserContext({ children }) {
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://smart-assistant-backend-imz6.onrender.com";
   const [userData, setUserData] = useState(null);
   const [localImage, setLocalImage] = useState(null);
   const [serverImage, setServerImage] = useState(null);
