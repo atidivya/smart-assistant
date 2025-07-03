@@ -11,7 +11,7 @@ dontenv.config()
 const app = express()
 
 app.use(cors({
-    origin: "http://localhost:5000",
+    origin: "https://smart-assistant-3tjm.onrender.com",
     credentials: true
 }))
 
