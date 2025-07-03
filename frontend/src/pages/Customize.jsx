@@ -7,7 +7,7 @@ import aiImage5 from "../assets/ai-image-5.jpg";
 import aiImage6 from "../assets/ai-image-6.jpg";
 import aiImage7 from "../assets/ai-image-7.jpg";
 import { RiImageAddLine } from "react-icons/ri";
-import { userDataContext } from "../context/userContext";
+import { userDataContext } from "../context/UserContext";
 import { useNavigate } from "react-router-dom";
 import { MdKeyboardBackspace } from "react-icons/md";
 
