@@ -77,11 +77,12 @@ function Home() {
 
   const handleCommand = (data) => {
     const { type, userInput, response } = data;
+    const query = encodeURIComponent(userInput);
 
     speak(response);
 
     if (type === "google_search") {
-      const query = encodeURIComponent(userInput);
+     
       window.open(`https://google.com/search?q=${query}`, "_blank");
     }
 
