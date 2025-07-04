@@ -98,7 +98,7 @@ function Home() {
     }
 
     if (type === "weather_show") {
-      window.open(`https://google.com/search?q="weather`, "_blank");
+      window.open(`https://google.com/search?q="weather ${query}`, "_blank");
     }
 
     if (type === "youtube_search" || type === "youtube_play") {
