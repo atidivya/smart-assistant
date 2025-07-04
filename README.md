@@ -1,20 +1,12 @@
-## 🤖 Smart Assistant
-Smart Assistant is an intelligent voice-based web assistant powered by Google Gemini LLM. It lets users interact through speech, receive dynamic responses, and manage personalized experiences. Built with a modern tech stack: **React (frontend)**, **Node.js + MongoDB (backend)**, and **Gemini (LLM integration)**.
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Tech Stack
+Currently, two official plugins are available:
 
-| Layer       | Tech                              |
-|-------------|-----------------------------------|
-| Frontend    | React, Tailwind CSS, Web Speech API |
-| Backend     | Node.js (Express)                 |
-| Database    | MongoDB (Mongoose)                |
-| AI/LLM      | Gemini API (by Google)            |
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-Demo Url: https://smart-assistant-3tjm.onrender.com
-
-
-API Url: https://smart-assistant-backend-imz6.onrender.com
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
